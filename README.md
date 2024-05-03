@@ -23,7 +23,7 @@ If you prefer to use it on your local machine, ensure that the following package
 Once Typst is installed, you can create a new file with a `.typ` extension, similar to the files located in `./examples/.` The file should import the following content in its header to work properly:
 
 ```
-#import "../templates/article-en.typ": *
+#import "../templates/support-en.typ": *
 #import "@preview/codelst:2.0.1": sourcecode
 
 #show: doc => support(
