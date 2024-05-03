@@ -2,24 +2,24 @@
 #import "@preview/codelst:2.0.1": sourcecode
 
 #show: doc => support(
-  title: "API Test Report Intelbras",
-  subtitle: "Network Technician Support Analyst",
+  title: "Relatório de Teste de API Intelbras",
+  subtitle: "Capacitação Suporte Técnico Redes",
   authors: "Arthur Cadore M. Barcella",
-  date: "May, 02, 2023",
+  date: "02 de Maio de 2024",
   doc,
 )
 
-= Objective
+= Objetivo
 
 #lorem(10)
 
-== Objective1
+== Objetivo1
 #lorem(40)
 
-== Objective
+== Objetivo
 #lorem(40)
 
-= Applied Tests
+= Testes Aplicados
 #lorem(10)
 
 #figure(
@@ -31,7 +31,7 @@
   caption: figure.caption([Image Created by The Author], position: top)
 )
 
-Code block with syntax highlighting:
+A imagem acima foi gerada com o seguinte bloco de código matlab: 
 
 #sourcecode[```matlab
 close all; clear all; clc;
@@ -77,32 +77,32 @@ phase_argument = 2*pi*k_f*cumsum(modulating_singal)*Ts;
 modulated_signal = A_carrier * cos(2*pi*f_carrier*t + phase_argument);
 ```]
 
-== Test 1
+== Teste 1
 #lorem(40)
 
-== Test 2 
+== Teste 2 
 #lorem(40)
 
-= Results
+= Resultados Obtidos
 #lorem(10)
 
-== Result 1
+== Resultado 1
 #lorem(40)
 
-== Result 2 
+== Resultado 2 
 #lorem(40)
 
-=== Description 1 of Result 2
+=== Descrição 1 of Resultado 2
 
-=== Description 1 of Result 2 
+=== Descrição 2 of Resultado 2 
 
-= Conclusion
+= Conclusão
 
 #lorem(40)
 
-= References
+= Referências Bibliográficas
 
-For this article, the folloaswing references were used:
+Para o desenvolvimento deste relatório, foi utilizado os seguintes materiais de referência: 
 
 - #link("http://asdasdadsasdadasd.com")[Nome do link]
 

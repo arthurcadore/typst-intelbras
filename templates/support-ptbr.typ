@@ -38,7 +38,7 @@
 
   // Defining the main image style
   align(center)[
-    #image("../assets/intelbras-logo.svg", width: 30em)
+    #image("../pictures/intelbras-logo.svg", width: 30em)
   ]
 
   // Defining the title style
@@ -51,7 +51,7 @@
 
   // Defining the authors and date style
   align(bottom + left)[
-    #text(list(..authors, marker: "", body-indent: 0pt), weight: "bold")
+    #text(list(authors, marker: "", body-indent: 0pt), weight: "bold")
     #text(date)
   ]
 
