@@ -55,6 +55,9 @@
     #text(date)
   ]
 
+  // Defining the language style
+  set text(lang: "pt")
+
   // Defining the abstract style
   pagebreak()
 

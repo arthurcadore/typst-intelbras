@@ -1,5 +1,8 @@
 #import "../templates/support-en.typ": *
 #import "@preview/codelst:2.0.1": sourcecode
+#show heading: set block(below: 1.5em)
+#show par: set block(spacing: 1.5em)
+
 
 #show: doc => support(
   title: "API Test Report Intelbras",

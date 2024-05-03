@@ -35,6 +35,8 @@
   // Defining the list style
   set math.equation(numbering: "(1)")
 
+  // Defining the language style
+  set text(lang: "pt")
 
   // Defining the main image style
   align(center)[
