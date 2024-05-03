@@ -1,8 +1,7 @@
 # Template Typst - Intelbras
 
-![IntelbrasLogo](./assets/main-logo.svg)
+<img src="./assets/main-logo.svg" alt="IntelbrasLogo" width="200" style="display: block; margin-left: auto; margin-right: auto;"/>
 
----
 #### This repository is dedicated to Typst's Template for Intelbras's Reports. 
 
 ---
