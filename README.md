@@ -1,10 +1,10 @@
 # Template Typst - Intelbras
+#### This repository is dedicated to Typst's Template for Intelbras's Reports. 
 
 <p align="center">
-  <img src="./assets/main-logo.svg" width="200" align="center">
+  <img src="./assets/main-logo.svg" width="250" align="center">
 </p>
 
-#### This repository is dedicated to Typst's Template for Intelbras's Reports. 
 
 ---
 ### Getting Started: 
