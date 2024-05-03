@@ -1,5 +1,5 @@
 # Template Typst - Intelbras
-#### This repository is dedicated to Typst's Template for Intelbras's Reports. 
+#### This repository is dedicated to Typst's Template for Intelbras Reports.
 
 <p align="center">
   <img src="./assets/main-logo.svg" width="250" align="center">
@@ -9,18 +9,18 @@
 ---
 ### Getting Started: 
 
-This repository was prepared to work on devcontainers on github, so, it uses a `.devcontainer` configuration to install all necessary packages to compile `.typ` archives automatically. 
+This repository is configured to work with devcontainers on GitHub, using a  `.devcontainer` configuration to automatically install all necessary packages for compiling `.typ` files.
 
-To do that, create a new codespace on main, if you have any trouble on that, you can use [This tutorial](https://docs.github.com/en/codespaces/getting-started/quickstart)
+To get started, create a new codespace on the main branch. If you encounter any issues, you can refer to [This tutorial](https://docs.github.com/en/codespaces/getting-started/quickstart)
 
-But, if you wanna to use it on your machine, please make sure to have the following packages on your machine: 
+If you prefer to use it on your local machine, ensure that the following packages are installed:
 
 - Git version 2.34.1
 - Typst v0.11.0 ([Instalation Tutorial](https://github.com/typst/typst))
 
 ### Using Typst Compiler: 
 
-Once the typst is installed, you just need to create a new archive with `.typ` extension, like the files located at `./examples/`. The archive need to import the following content on it's header to work properlly: 
+Once Typst is installed, you can create a new file with a `.typ` extension, similar to the files located in `./examples/.` The file should import the following content in its header to work properly:
 
 ```
 #import "../templates/article-en.typ": *
@@ -37,16 +37,24 @@ Once the typst is installed, you just need to create a new archive with `.typ` e
 // WRITE YOUR CUSTOM FILE CONTENT BELOW USING TYPST SINTAX. 
 ```
 
-During the creation of the file, you can save the file using `crtl+S` and the extension (pre-installed on devcontainer only) will automatically compile the code and create a `.pdf` archive! 
+While creating the file, you can save it using `Ctrl + S`, and the extension (pre-installed in the devcontainer only) will automatically compile the code and create a `.pdf` file!
 
-If you are using this repository on your local machine, please make sure that VScode has the following extensions to work properlly: 
+If you are using this repository on your local machine, ensure that VSCode has the following extensions installed for proper functionality:
 
 - nvarner.typst-lsp
 - mathematic.vscode-pdf
 
-Optional extensions (Preinstalled on devcontainer): 
+Optional extensions (Preinstalled in devcontainer):
 
 - dracula-theme.theme-dracula
 - GitHub.copilot
+
+### References Used: 
+
+- [Typst IFSC Templates - Gabrielluizep](https://github.com/gabrielluizep/typst-ifsc)
+
+- [Typst Instalation](https://github.com/typst)
+
+- [Typst Documentation](https://typst.app/docs/)
 
 
