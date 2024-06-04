@@ -1,6 +1,6 @@
-#let article(
-  title: "Typst Intelbras",
-  subtitle: "Network Technician Support",
+#let report(
+  title: "Typst Support Model - Intelbras",
+  subtitle: "ITB Business Networks - Special Projects",
   authors: "Arthur Cadore M. Barcella",
   date: none,
   doc,
@@ -11,12 +11,20 @@
 
   set block(spacing: 1.5em)
 
+  // Defining the document highlighting style
+  set highlight(
+    fill: rgb("#c1c7c3"),
+    stroke: rgb("#6b6a6a"),
+    extent: 2pt,
+    radius: 0.2em, 
+  ) 
+
   // Defining the document style
   set page(
     numbering: "1",
     paper: "a4",
     margin: (top: 3cm, bottom: 2cm, left: 3cm, right: 2cm),
-    footer: "Intelbras Capacitação Suporte Técnico Redes",
+    footer: "Business Networks - Special Projects",
   )
 
   // Defining the text style and size
@@ -35,6 +43,8 @@
   // Defining the list style
   set math.equation(numbering: "(1)")
 
+  // Defining the language style
+  set text(lang: "pt")
 
   // Defining the main image style
   align(center)[
@@ -55,9 +65,6 @@
     #text(date)
   ]
 
-  // Defining the language style
-  set text(lang: "pt")
-
   // Defining the abstract style
   pagebreak()
 
@@ -65,7 +72,7 @@
   show outline.entry.where(level: 1): it => {
     strong(it)
   }
-  outline(title: [Índice #v(1.5em)], indent: 1.5em)
+  outline(title: [Summary #v(1.5em)], indent: 1.5em)
 
   pagebreak()
   doc

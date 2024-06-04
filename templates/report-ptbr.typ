@@ -1,6 +1,6 @@
-#let support(
-  title: "Typst Support Model - Intelbras",
-  subtitle: "Network Technician Support",
+#let report(
+  title: "Typst Intelbras",
+  subtitle: "ITB Redes Empresariais - Projetos Especiais",
   authors: "Arthur Cadore M. Barcella",
   date: none,
   doc,
@@ -16,7 +16,7 @@
     numbering: "1",
     paper: "a4",
     margin: (top: 3cm, bottom: 2cm, left: 3cm, right: 2cm),
-    footer: "Network Support - Intelbras",
+    footer: "Redes Empresariais - Projetos Especiais",
   )
 
   // Defining the text style and size
@@ -35,8 +35,6 @@
   // Defining the list style
   set math.equation(numbering: "(1)")
 
-  // Defining the language style
-  set text(lang: "pt")
 
   // Defining the main image style
   align(center)[
@@ -57,6 +55,9 @@
     #text(date)
   ]
 
+  // Defining the language style
+  set text(lang: "pt")
+
   // Defining the abstract style
   pagebreak()
 
@@ -64,7 +65,7 @@
   show outline.entry.where(level: 1): it => {
     strong(it)
   }
-  outline(title: [Summary #v(1.5em)], indent: 1.5em)
+  outline(title: [Índice #v(1.5em)], indent: 1.5em)
 
   pagebreak()
   doc

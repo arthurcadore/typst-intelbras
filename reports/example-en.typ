@@ -1,10 +1,11 @@
-#import "../templates/support-en.typ": *
+#import "../templates/report-en.typ": *
+#set text(lang: "pt")
 
-#show: doc => support(
+#show: doc => report(
   title: "Intelbras API Test Report",
-  subtitle: "Network Support Training Analyst",
+  subtitle: "ITB Business Networks - Special Projects",
   authors: "Arthur Cadore M. Barcella",
-  date: "02 de Maio de 2023",
+  date: "02, May 2024",
   doc,
 )
 

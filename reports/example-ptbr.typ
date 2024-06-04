@@ -1,9 +1,9 @@
-#import "../templates/support-ptbr.typ": *
+#import "../templates/report-ptbr.typ": *
 #import "@preview/codelst:2.0.1": sourcecode
 
-#show: doc => support(
+#show: doc => report(
   title: "Relatório de Teste de API Intelbras",
-  subtitle: "Capacitação Suporte Técnico Redes",
+  subtitle: "ITB Redes Empresariais - Projetos Especiais",
   authors: "Arthur Cadore M. Barcella",
   date: "02 de Maio de 2023",
   doc,
