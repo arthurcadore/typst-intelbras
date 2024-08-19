@@ -1,40 +1,37 @@
-#import "../reports/example-en.typ": *
+#import "../templates/report-confidential-ptbr.typ": *
 #import "@preview/codelst:2.0.1": sourcecode
-#show heading: set block(below: 1.5em)
-#show par: set block(spacing: 1.5em)
-
 
 #show: doc => report(
-  title: "API Test Report Intelbras",
-  subtitle: "Network Technician Support Analyst",
-  authors: "Zé",
-  date: "May, 02, 2023",
+  title: "Relatório de Teste de API Intelbras",
+  subtitle: "ITB Redes Empresariais - Projetos Especiais",
+  authors: "Arthur Cadore M. Barcella",
+  date: "02 de Maio de 2023",
   doc,
 )
 
-= Objective
+= Objetivo
 
 #lorem(10)
 
-== Objective1
+== Objetivo1
 #lorem(40)
 
-== Objective
+== Objetivo2
 #lorem(40)
 
-= Applied Tests
+= Testes aplicados
 #lorem(10)
 
 #figure(
   figure(
     image("../pictures/example.png"),
     numbering: none,
-    caption: [Image Description]
+    caption: [Descrição da imagem de exemplo]
   ),
-  caption: figure.caption([Image Created by The Author], position: top)
+  caption: figure.caption([Elaborada pelo Autor], position: top)
 )
 
-Code block with syntax highlighting:
+Código correspondente a imagem acima: 
 
 #sourcecode[```matlab
 close all; clear all; clc;
@@ -80,32 +77,32 @@ phase_argument = 2*pi*k_f*cumsum(modulating_singal)*Ts;
 modulated_signal = A_carrier * cos(2*pi*f_carrier*t + phase_argument);
 ```]
 
-== Test 1
+== Teste 1
 #lorem(40)
 
-== Test 2 
+== Teste 2 
 #lorem(40)
 
-= Results
+= Resultados obtidos
 #lorem(10)
 
-== Result 1
+== Resultado 1
 #lorem(40)
 
-== Result 2 
+== Resultado 2 
 #lorem(40)
 
-=== Description 1 of Result 2
+=== Seção 1 do resultado 2
 
-=== Description 1 of Result 2 
+=== Seção 2 do resultado 2 
 
-= Conclusion
+= Conclusão
 
 #lorem(40)
 
-= References
+= Referências Bibliográficas:
 
-For this article, the folloaswing references were used:
+Para o desenvolvimento deste relatório, foi utilizado os seguintes materiais de referência:
 
 - #link("http://asdasdadsasdadasd.com")[Nome do link]
 
